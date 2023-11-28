@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color:#fff;
+}
+
+
+.sidenav{
+    background-color:#000000;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    margin: 0px;
+    box-sizing: border-box;
+    padding:10px 20px;
+    position: relative;
+}
+
+
+.brand-img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width:75%;
+}
+
+.menu-items{
+    margin-top: 20px;
+}
+.nav-items{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    padding: 12px 35px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nav-logo{
+    padding-right: 10px;
+}
+.nav-itm-btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.nav-items.active{
+    background-color:#4d3a3ab7;
+}
+
+.nav-links{
+    text-decoration: none;
+}
+
+.nav-items:hover{
+    color: #15ff00b7;
+}
+
+.playlists{
+    padding: 12px 35px;
+}
+
+.playlists p{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1.2px;
+    cursor: default;
+}
+
+.create-playlist,
+.liked-songs{
+    color: #fff;
+    opacity: .7;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    min-height: max-content;
+    cursor: pointer;
+    transition: opacity .2s linear;
+    width: 100%;
+    outline:none;
+    position: relative;
+    
+}
+
+
+.side-img{
+    display: flex;
+}
+.play-logo{
+    font-size:40px;
+    margin-right: 20px;
+}
+
+.fa-heart{
+    font-size: 15px;
+    padding: 10px;
+    background: linear-gradient(135deg,#450af5,#c4efd9);
+
+}
+.create-playlist:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+.liked-songs:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+
+.line{
+    width:100%;
+    background-color:#807070;
+    padding: 0 10px;
+    height:1px;
+    box-sizing: border-box;
+}
+
+.copyright{
+    position: absolute;
+    bottom: 10px;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}

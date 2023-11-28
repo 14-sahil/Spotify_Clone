@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sidenav.css">
+    <script src="https://kit.fontawesome.com/92aa46a256.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="sidenav">
+        <nav class="sidebar">
+            <div class="logo">
+                <a href="content.html" target="content"><img src="default.png" alt="Brand-Logo" class="brand-img"></a>
+                
+            </div>
+            <div class="menu-items">
+                <a href="content.html" target="content" class="nav-links">
+                    <h1 class="nav-items nav-i active">
+                        <i class="fas fa-home nav-logo"></i> Home
+                    </h1>
+                </a>
+                
+                <a href="search.html" target="content" class="nav-links">
+                    <h1 class="nav-items nav-i">
+                        <i class="fas fa-search nav-logo"></i> search
+                    </h1>
+                </a>
+                
+                <button class="nav-items nav-itm-btn" onclick="msgalert()">
+                    <i class="fas fa-stream nav-logo"></i>
+                        library
+                </button>
+            </div>
+            <div class="playlists">
+                <p class="playlists-title">playlist</p>
+                <button class="create-playlist side-img" onclick="msgalert()">
+                    <i class="fas fa-plus-square play-logo"></i>
+                        Create playlist
+
+                </button>
+                    <button class="liked-songs" onclick="msgalert()">
+                    <i class="fas fa-heart play-logo"></i>
+                        liked songs
+                </button>
+            </div>
+
+            <div class="line"></div>
+        </nav>
+        <p class="copyright"> &#169; Copyright - @SK Music</p>
+    </div>
+
+    <script>
+        function msgalert(){
+            alert("Enjoy your songs by Logging In")
+        }
+        let active = document.querySelectorAll('h1');
+        active.forEach( button =>{
+           button.addEventListener('click', function(){
+               active.forEach(btn => btn.classList.remove('active'));
+               this.classList.add('active');
+           }) 
+        })
+    </script>
+</body>
+</html>

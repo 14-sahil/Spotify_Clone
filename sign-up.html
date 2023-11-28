@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel = "icon" href ="icon1.png" type = "image/x-icon">
+    <script src="https://kit.fontawesome.com/92aa46a256.js" crossorigin="anonymous"></script>
+    <title>Spotify - SignUp</title>
+
+    <!-- CSS STARTS FROM HERE  -->
+
+
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color:#fff;
+    padding-bottom: 90px;
+    background-color:#1D1D1D;
+}
+
+#brand-image{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+#brand-image img{
+    height: 100px;
+}
+
+.horizontal-line{
+    border: 1px solid #16f70f;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.form-wrapper{
+    width:30%;
+    margin: auto;
+    text-align: center;
+}
+.form-wrapper h1{
+    font-size: 28px;
+    text-transform: capitalize;
+}
+
+.form-wrapper button{
+    width: 100%;
+    padding: 15px 32px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    background-color:#0f2450;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.form-wrapper button:hover{
+    background-color:#234794;
+}
+.form-wrapper button i{
+    margin-right: 10px;
+}
+.divider{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #fff; */
+}
+.divider div{
+    background-color: rgb(149, 233, 13);
+    height: 1px;
+    width: 100%;
+    margin: 14px;
+    margin-top: 30px;
+}
+form{
+    padding: 20px;
+    text-align: left;
+}
+form label{
+    display: block;
+    font-size: 16px;
+}
+form input{
+    width: 100%;
+    padding: 10px 20px;
+    border: 2px solid rgb(149, 233, 13);
+    border-radius: 12px;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+input:focus{
+    outline: none;
+}
+.gender-container{
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-evenly;
+}
+.gender{
+    display: inline-block;
+    width:auto;
+    margin: 0; 
+    margin-right: 3px;
+}
+
+.gender-radio{
+    width: auto;
+    display: inline-block;
+    padding: 0;
+}
+
+.sign-up-btn{
+    width:100% !important;
+    background-color: rgb(78, 151, 73) !important;
+}
+
+.sign-up-btn:hover{
+    background-color: rgb(107, 206, 100) !important;
+}
+    </style>
+
+ 
+
+<!-- HTML STARTS FROM HERE -->
+
+
+</head>
+<body>
+    <main>
+        <section id="brand-image">
+            <img src="default.png" alt="">
+            <div class="horizontal-line"></div>
+        </section>
+
+        <section id="sign-up-form">
+            <div class="form-wrapper">
+                <h1>Sign up for free to start listening.</h1>
+                <a href="index.html">
+                    <button><i class="fab fa-facebook-f"></i> Sign Up with Facebook</button>
+                </a>
+                
+                <div class="divider">
+                    <div></div>
+                    <p>or</p>
+                    <div></div>
+                </div>
+
+                <form>
+                    <label>What's your email?</label> 
+                    <input type="text" placeholder="Enter your email.">
+
+                    <label>Confirm your email</label> 
+                    <input type="text" placeholder="Enter your email again.">
+
+                    <label>Create a password</label> 
+                    <input type="password" placeholder="Create a password.">
+
+                    <label>Confirm your password</label> 
+                    <input type="password" placeholder="Enter your password again.">
+
+                    <label>What should we call you?</label> 
+                    <input type="text" placeholder="Enter a Profile name.">
+
+                    <label>What's your date of birth?</label> 
+                    <input type="date">
+
+                    <label> What's your gender?</label>
+                    <div class="gender-container">
+                        <input type="radio" id="male" name="gender" value="male" class="gender-radio">
+                        <label for="male" class="gender">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="female" class="gender-radio">
+                        <label for="female">Female</label class="gender"><br>
+                        <input type="radio" id="other" name="gender" value="other" class="gender-radio">
+                        <label for="other" class="gender">Other</label>
+                    </div>
+                    <input type="checkbox" class="gender">Share my registration data with Spotify's content providers for marketing purposes.
+
+
+                </form>
+                <a href="index.html">
+                    <button class="sign-up-btn">Sign Up</button>
+                </a>
+                
+            </div>
+            
+        </section>
+    </main>
+</body>
+</html>
