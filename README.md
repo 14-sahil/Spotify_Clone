@@ -12,6 +12,12 @@ Created a Spotify clone website using HTML and CSS, providing a sleek and respon
 - HTML for structuring the content. 🧱
 - CSS for styling and layout. 🎨
 
+## How to Use:
+1. Clone the repository.
+2. Open the `index.html` file in your browser.
+3. Start exploring and listening to music! 🎉
+
+
 
 
 
