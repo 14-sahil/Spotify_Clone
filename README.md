@@ -22,6 +22,7 @@ Feel free to customize and contribute to enhance the Spotify clone experience. �
 
 ## Inspiration:
 This project serves as a learning tool and pays homage to the Spotify platform. 🎓🎵
+
 Give it a try, and enjoy the vibe of your personalized Spotify clone! 🌟🎶
 
 
