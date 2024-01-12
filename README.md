@@ -17,6 +17,10 @@ Created a Spotify clone website using HTML and CSS, providing a sleek and respon
 2. Open the `index.html` file in your browser.
 3. Start exploring and listening to music! 🎉
 
+## Customize and Contribute:
+Feel free to customize and contribute to enhance the Spotify clone experience. 🛠️🤝
+
+
 
 
 
