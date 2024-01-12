@@ -8,6 +8,12 @@ Created a Spotify clone website using HTML and CSS, providing a sleek and respon
 - Responsive design for seamless use across devices. 🌐
 - Explore and play your favorite tracks effortlessly. 🎶
 
+## Technologies Used:
+- HTML for structuring the content. 🧱
+- CSS for styling and layout. 🎨
+
+
+
 
 
 
